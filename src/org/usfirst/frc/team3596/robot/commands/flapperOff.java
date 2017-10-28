@@ -2,8 +2,6 @@ package org.usfirst.frc.team3596.robot.commands;
 
 import org.usfirst.frc.team3596.robot.Robot;
 
-import org.usfirst.frc.team3596.robot.commands.flapperOn;
-
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
