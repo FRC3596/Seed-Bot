@@ -19,7 +19,7 @@ public class drivetrain extends Subsystem {
 	public Talon leftDrive = new Talon(0);
 	
 	public Talon rightDrive = new Talon(1);
-	pubpublic RobotDrive _driveTrain = new RobotDrive(leftDrive, rightDrive);lic RobotDrive _driveTrain = new RobotDrive(leftDrive, rightDrive);
+	public RobotDrive _driveTrain = new RobotDrive(leftDrive, rightDrive);
 	
     public void initDefaultCommand() {
         // Set the default command for a subsystem here.
