@@ -16,9 +16,12 @@ public class drivetrain extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	
-	public Talon leftDrive = new Talon(0);
 	
+	//PWM IMPUTS
+	public Talon leftDrive = new Talon(0);
 	public Talon rightDrive = new Talon(1);
+	
+	
 	public RobotDrive _driveTrain = new RobotDrive(leftDrive, rightDrive);
 	
     public void initDefaultCommand() {
