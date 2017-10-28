@@ -10,7 +10,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
  *
  */
 public class flapper extends Subsystem {
-
+//The class flapper is reffering to the spinning flaps near the bottom of the robot.
+	
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	
