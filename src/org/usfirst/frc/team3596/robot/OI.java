@@ -14,7 +14,7 @@ import edu.wpi.first.wpilibj.buttons.JoystickButton;
 public class OI {
 
 	
-	// This is the Logitec Controller
+	// This is the Logitech Controller
 	Joystick driveJoy = new Joystick(0);
 	Button  button_X = new JoystickButton(driveJoy, 1),
 			button_A = new JoystickButton(driveJoy, 2),
